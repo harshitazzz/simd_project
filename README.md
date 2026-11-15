@@ -193,10 +193,10 @@ video/      README.md (video link)
 
 ## 10. Team and individual contributions
 
-| Member | Name | GitHub | Design / code | Verification / results | Report sections |
+| Member | Name | Enrollment| Design / code | Verification / results | Report sections |
 |---|---|---|---|---|---|
-| 1 | _name_ | _@id_ | `simd_core.v` integration, Makefile, CI, repo setup | integration run, clean-clone check | Abstract, Introduction, Discussion, assembly |
-| 2 | _name_ | _@id_ | `lane_alu.v`, block-diagram script | `tb_lane_alu.v` (exhaustive) | ISA + lane ALU section, Fig. 1 block diagram |
+| 1 | Harshita| 2401020026 | `simd_core.v` integration, Makefile, CI, repo setup | integration run, clean-clone check | Abstract, Introduction, Discussion, assembly, vedio |
+| 2 | Yashi Agarwal | 2401010516 | `lane_alu.v`, block-diagram script | `tb_lane_alu.v` (exhaustive) | ISA + lane ALU section, Fig. 1 block diagram |
 | 3 | _name_ | _@id_ | `vreg_file.v`, `fmax_wrap.v`, `fmax.sh` | `tb_vreg_file.v`, Fmax/area for 1-8 lanes | Literature review, Experimental setup |
 | 4 | _name_ | _@id_ | `vctrl.v`, ISA document | `tb_vctrl.v`, `tb_simd_core.v`, coverage, fault injection | Verification |
 | 5 | _name_ | _@id_ | `scalar_top.v`, `bench_top.v`, plotting/table scripts | `tb_bench.v`, `tb_compare.v`, `tb_waves.v`, waveforms, analysis | Scalar machine + benchmark, Results |
