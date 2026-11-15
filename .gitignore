@@ -1,0 +1,16 @@
+# simulation outputs (regenerate with make)
+sim/*
+!sim/.gitkeep
+*.vcd
+# LaTeX build files
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc
+report/*.bbl
+report/*.blg
+# editors / OS
+.DS_Store
+Thumbs.db
+__pycache__/
+.vscode/

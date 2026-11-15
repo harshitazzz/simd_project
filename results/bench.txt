@@ -1,0 +1,4 @@
+BENCH lanes=1 N=1024 iterations=1024 cycles=4097 elements_per_cycle=0.249939 errors=0
+BENCH lanes=2 N=1024 iterations=512 cycles=2049 elements_per_cycle=0.499756 errors=0
+BENCH lanes=4 N=1024 iterations=256 cycles=1025 elements_per_cycle=0.999024 errors=0
+BENCH lanes=8 N=1024 iterations=128 cycles=513 elements_per_cycle=1.996101 errors=0
