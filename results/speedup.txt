@@ -1,0 +1,4 @@
+lanes=1 cycles=4097 speedup=1.00x efficiency=100.0%
+lanes=2 cycles=2049 speedup=2.00x efficiency=100.0%
+lanes=4 cycles=1025 speedup=4.00x efficiency=99.9%
+lanes=8 cycles=513 speedup=7.99x efficiency=99.8%

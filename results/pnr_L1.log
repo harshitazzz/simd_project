@@ -1,0 +1,373 @@
+
+
+Info: Logic utilisation before packing:
+Info:     Total LUT4s:      2466/83640     2%
+Info:         logic LUTs:   2342/83640     2%
+Info:         carry LUTs:    124/83640     0%
+Info:           RAM LUTs:      0/10455     0%
+Info:          RAMW LUTs:      0/20910     0%
+
+Info:      Total DFFs:       375/83640     0%
+
+Info: Packing IOs..
+Info: Packing constants..
+Info: Packing carries...
+Info: Packing LUTs...
+Info: Packing LUT5-7s...
+Info: Packing FFs...
+Info:     50 FFs paired with LUTs.
+Info: Generating derived timing constraints...
+Info: Promoting globals...
+Info:     promoting clock net clk$TRELLIS_IO_IN to global network
+Info: Checksum: 0x479da9db
+
+Info: Annotating ports with timing budgets for target frequency 100.00 MHz
+Info: Checksum: 0xbcdfe1bc
+
+Info: Device utilisation:
+Info: 	          TRELLIS_IO:     4/  365     1%
+Info: 	                DCCA:     1/   56     1%
+Info: 	              DP16KD:     0/  208     0%
+Info: 	          MULT18X18D:     3/  156     1%
+Info: 	              ALU54B:     0/   78     0%
+Info: 	             EHXPLLL:     0/    4     0%
+Info: 	             EXTREFB:     0/    2     0%
+Info: 	                DCUA:     0/    2     0%
+Info: 	           PCSCLKDIV:     0/    2     0%
+Info: 	             IOLOGIC:     0/  224     0%
+Info: 	            SIOLOGIC:     0/  141     0%
+Info: 	                 GSR:     0/    1     0%
+Info: 	               JTAGG:     0/    1     0%
+Info: 	                OSCG:     0/    1     0%
+Info: 	               SEDGA:     0/    1     0%
+Info: 	                 DTR:     0/    1     0%
+Info: 	             USRMCLK:     0/    1     0%
+Info: 	             CLKDIVF:     0/    4     0%
+Info: 	           ECLKSYNCB:     0/   10     0%
+Info: 	             DLLDELD:     0/    8     0%
+Info: 	              DDRDLL:     0/    4     0%
+Info: 	             DQSBUFM:     0/   14     0%
+Info: 	     TRELLIS_ECLKBUF:     0/    8     0%
+Info: 	        ECLKBRIDGECS:     0/    2     0%
+Info: 	                DCSC:     0/    2     0%
+Info: 	          TRELLIS_FF:   375/83640     0%
+Info: 	        TRELLIS_COMB:  2490/83640     2%
+Info: 	        TRELLIS_RAMW:     0/10455     0%
+
+Info: Placed 0 cells based on constraints.
+Info: Creating initial analytic placement for 1491 cells, random placement wirelen = 159906.
+Info:     at initial placer iter 0, wirelen = 909
+Info:     at initial placer iter 1, wirelen = 600
+Info:     at initial placer iter 2, wirelen = 578
+Info:     at initial placer iter 3, wirelen = 569
+Info: Running main analytical placer, max placement attempts per cell = 1031766.
+Info:     at iteration #1, type ALL: wirelen solved = 592, spread = 13799, legal = 14299; time = 0.08s
+Info:     at iteration #2, type ALL: wirelen solved = 1032, spread = 11538, legal = 12631; time = 0.08s
+Info:     at iteration #3, type ALL: wirelen solved = 1852, spread = 9849, legal = 11431; time = 0.07s
+Info:     at iteration #4, type ALL: wirelen solved = 2841, spread = 9580, legal = 10448; time = 0.09s
+Info:     at iteration #5, type ALL: wirelen solved = 3381, spread = 8837, legal = 9934; time = 0.08s
+Info:     at iteration #6, type ALL: wirelen solved = 4042, spread = 8828, legal = 10038; time = 0.08s
+Info:     at iteration #7, type ALL: wirelen solved = 4394, spread = 8557, legal = 9640; time = 0.10s
+Info:     at iteration #8, type ALL: wirelen solved = 4868, spread = 8619, legal = 9209; time = 0.08s
+Info:     at iteration #9, type ALL: wirelen solved = 5181, spread = 8282, legal = 9534; time = 0.08s
+Info:     at iteration #10, type ALL: wirelen solved = 5262, spread = 7849, legal = 8898; time = 0.08s
+Info:     at iteration #11, type ALL: wirelen solved = 5201, spread = 7855, legal = 8808; time = 0.07s
+Info:     at iteration #12, type ALL: wirelen solved = 5333, spread = 7634, legal = 8549; time = 0.07s
+Info:     at iteration #13, type ALL: wirelen solved = 5363, spread = 7928, legal = 8665; time = 0.07s
+Info:     at iteration #14, type ALL: wirelen solved = 5648, spread = 7669, legal = 8440; time = 0.07s
+Info:     at iteration #15, type ALL: wirelen solved = 5562, spread = 7917, legal = 8772; time = 0.09s
+Info:     at iteration #16, type ALL: wirelen solved = 5840, spread = 7901, legal = 8644; time = 0.08s
+Info:     at iteration #17, type ALL: wirelen solved = 5906, spread = 7591, legal = 8342; time = 0.07s
+Info:     at iteration #18, type ALL: wirelen solved = 5850, spread = 8022, legal = 8852; time = 0.07s
+Info:     at iteration #19, type ALL: wirelen solved = 6031, spread = 7523, legal = 8383; time = 0.08s
+Info:     at iteration #20, type ALL: wirelen solved = 5826, spread = 7414, legal = 8378; time = 0.07s
+Info:     at iteration #21, type ALL: wirelen solved = 5823, spread = 7671, legal = 8532; time = 0.09s
+Info:     at iteration #22, type ALL: wirelen solved = 5855, spread = 7733, legal = 8495; time = 0.08s
+Info: HeAP Placer Time: 2.39s
+Info:   of which solving equations: 1.60s
+Info:   of which spreading cells: 0.20s
+Info:   of which strict legalisation: 0.13s
+
+Info: Running simulated annealing placer for refinement.
+Info:   at iteration #1: temp = 0.000000, timing cost = 994, wirelen = 8342
+Info:   at iteration #5: temp = 0.000000, timing cost = 1008, wirelen = 7185
+Info:   at iteration #10: temp = 0.000000, timing cost = 975, wirelen = 6853
+Info:   at iteration #15: temp = 0.000000, timing cost = 966, wirelen = 6681
+Info:   at iteration #20: temp = 0.000000, timing cost = 933, wirelen = 6615
+Info:   at iteration #25: temp = 0.000000, timing cost = 926, wirelen = 6593
+Info:   at iteration #27: temp = 0.000000, timing cost = 924, wirelen = 6585 
+Info: SA placement time 3.51s
+
+Info: Max frequency for clock '$glbnet$clk$TRELLIS_IO_IN': 67.62 MHz (FAIL at 100.00 MHz)
+
+Info: Max delay <async>                           -> posedge $glbnet$clk$TRELLIS_IO_IN: 3.50 ns
+Info: Max delay posedge $glbnet$clk$TRELLIS_IO_IN -> <async>                          : 7.49 ns
+
+Info: Slack histogram:
+Info:  legend: * represents 1 endpoint(s)
+Info:          + represents [1,1) endpoint(s)
+Info: [ -4788,  -4072) |*******+
+Info: [ -4072,  -3356) |**************+
+Info: [ -3356,  -2640) |**************************+
+Info: [ -2640,  -1924) |************+
+Info: [ -1924,  -1208) |********************************+
+Info: [ -1208,   -492) |**********************************+
+Info: [  -492,    224) |**********+
+Info: [   224,    940) | 
+Info: [   940,   1656) | 
+Info: [  1656,   2372) | 
+Info: [  2372,   3088) |+
+Info: [  3088,   3804) | 
+Info: [  3804,   4520) |**************+
+Info: [  4520,   5236) |****************************************************+
+Info: [  5236,   5952) |******************************************+
+Info: [  5952,   6668) |***********************************+
+Info: [  6668,   7384) |************************************************+
+Info: [  7384,   8100) |************************************************************ 
+Info: [  8100,   8816) |********************************************+
+Info: [  8816,   9532) |*******************************************+
+Info: Checksum: 0x15d29a51
+Info: Routing globals...
+Info:     routing clock net $glbnet$clk$TRELLIS_IO_IN using global 0
+
+Info: Routing..
+Info: Setting up routing queue.
+Info: Routing 8336 arcs.
+Info:            |   (re-)routed arcs  |   delta    | remaining|       time spent     |
+Info:    IterCnt |  w/ripup   wo/ripup |  w/r  wo/r |      arcs| batch(sec) total(sec)|
+Info:       1000 |      266        733 |  266   733 |      7616|       0.55       0.55|
+Info:       2000 |      509       1490 |  243   757 |      6912|       0.45       1.01|
+Info:       3000 |      729       2270 |  220   780 |      6177|       0.37       1.38|
+Info:       4000 |     1162       2837 |  433   567 |      5684|       0.33       1.71|
+Info:       5000 |     1532       3467 |  370   630 |      5108|       0.37       2.08|
+Info:       6000 |     2078       3921 |  546   454 |      4714|       0.41       2.48|
+Info:       7000 |     2624       4375 |  546   454 |      4312|       0.32       2.81|
+Info:       8000 |     2962       4931 |  338   556 |      3669|       0.28       3.09|
+Info:       9000 |     3400       5360 |  438   429 |      3132|       0.21       3.30|
+Info:      10000 |     3593       6001 |  193   641 |      2337|       0.15       3.45|
+Info:      11000 |     3682       6699 |   89   698 |      1439|       0.12       3.57|
+Info:      12000 |     3754       7513 |   72   814 |       511|       0.19       3.76|
+Info:      12515 |     3759       7852 |    5   339 |         0|       0.09       3.85|
+Info: Routing complete.
+Info: Router1 time 3.85s
+Info: Checksum: 0xc24c188a
+
+Info: Critical path report for clock '$glbnet$clk$TRELLIS_IO_IN' (posedge -> posedge):
+Info: curr total
+Info:  0.3  0.3  Source sh_TRELLIS_FF_Q_82.Q
+Info:  1.5  1.9    Net instr[1] budget 0.000000 ns (13,15) -> (3,2)
+Info:                Sink u_core.lane[0].u_alu.b_L6MUX21_Z_8_D0_PFUMX_Z_BLUT_LUT4_Z_A_PFUMX_Z_ALUT_LUT4_Z.D
+Info:                Defined in:
+Info:                  synth/fmax_wrap.v:25.39-28.44
+Info:                  rtl/simd_core.v:27.26-27.29
+Info:  0.1  2.0  Source u_core.lane[0].u_alu.b_L6MUX21_Z_8_D0_PFUMX_Z_BLUT_LUT4_Z_A_PFUMX_Z_ALUT_LUT4_Z.F
+Info:  0.0  2.0    Net u_core.lane[0].u_alu.b_L6MUX21_Z_8_D0_PFUMX_Z_BLUT_LUT4_Z_A_PFUMX_Z_ALUT budget 0.000000 ns (3,2) -> (3,2)
+Info:                Sink u_core.lane[0].u_alu.b_L6MUX21_Z_8_D0_PFUMX_Z_BLUT_LUT4_Z_A_PFUMX_Z_BLUT_LUT4_Z.F1
+Info:                Defined in:
+Info:                  /usr/bin/../share/yosys/ecp5/cells_map.v:133.22-133.24
+Info:  0.1  2.1  Source u_core.lane[0].u_alu.b_L6MUX21_Z_8_D0_PFUMX_Z_BLUT_LUT4_Z_A_PFUMX_Z_BLUT_LUT4_Z.OFX
+Info:  0.7  2.8    Net u_core.lane[0].u_alu.b_L6MUX21_Z_8_D0_PFUMX_Z_BLUT_LUT4_Z_A[1] budget 0.000000 ns (3,2) -> (4,3)
+Info:                Sink u_core.lane[0].u_alu.b_L6MUX21_Z_8_D0_PFUMX_Z_ALUT_LUT4_Z.B
+Info:                Defined in:
+Info:                  /usr/bin/../share/yosys/ecp5/cells_map.v:108.23-108.24
+Info:  0.1  2.9  Source u_core.lane[0].u_alu.b_L6MUX21_Z_8_D0_PFUMX_Z_ALUT_LUT4_Z.F
+Info:  0.0  2.9    Net u_core.lane[0].u_alu.b_L6MUX21_Z_8_D0_PFUMX_Z_ALUT budget 0.000000 ns (4,3) -> (4,3)
+Info:                Sink u_core.lane[0].u_alu.b_L6MUX21_Z_8_D0_PFUMX_Z_BLUT_LUT4_Z.F1
+Info:                Defined in:
+Info:                  /usr/bin/../share/yosys/ecp5/cells_map.v:141.22-141.24
+Info:  0.1  3.0  Source u_core.lane[0].u_alu.b_L6MUX21_Z_8_D0_PFUMX_Z_BLUT_LUT4_Z.OFX
+Info:  0.0  3.0    Net u_core.lane[0].u_alu.b_L6MUX21_Z_8_D0 budget 0.000000 ns (4,3) -> (4,3)
+Info:                Sink u_core.lane[0].u_alu.b_L6MUX21_Z_8_D1_PFUMX_Z_ALUT_LUT4_Z.FXA
+Info:                Defined in:
+Info:                  /usr/bin/../share/yosys/ecp5/cells_map.v:141.34-141.36
+Info:  0.1  3.2  Source u_core.lane[0].u_alu.b_L6MUX21_Z_8_D1_PFUMX_Z_ALUT_LUT4_Z.OFX
+Info:  1.1  4.3    Net u_core.lane[0].op_b[3] budget 0.140000 ns (4,3) -> (8,10)
+Info:                Sink u_core.u_rf.wdata_LUT4_Z_2_A_PFUMX_Z_C0_PFUMX_Z_C0_L6MUX21_Z_SD_L6MUX21_Z_SD_L6MUX21_Z_D0_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z_C_CCU2C_S1_S0_CCU2C_S1_S0_MULT18X18D_P2.B3
+Info:                Defined in:
+Info:                  /usr/bin/../share/yosys/ecp5/cells_map.v:108.23-108.24
+Info:  2.5  6.8  Source u_core.u_rf.wdata_LUT4_Z_2_A_PFUMX_Z_C0_PFUMX_Z_C0_L6MUX21_Z_SD_L6MUX21_Z_SD_L6MUX21_Z_D0_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z_C_CCU2C_S1_S0_CCU2C_S1_S0_MULT18X18D_P2.P19
+Info:  1.1  7.9    Net u_core.u_rf.wdata_LUT4_Z_2_A_PFUMX_Z_C0_PFUMX_Z_C0_L6MUX21_Z_SD_L6MUX21_Z_SD_L6MUX21_Z_D0_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z_C_CCU2C_S1_S0_CCU2C_S1_S0_MULT18X18D_P2_P18[1] budget 0.070000 ns (8,10) -> (8,11)
+Info:                Sink u_core.u_rf.wdata_LUT4_Z_2_A_PFUMX_Z_C0_PFUMX_Z_C0_L6MUX21_Z_SD_L6MUX21_Z_SD_L6MUX21_Z_D0_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z_C_CCU2C_S1_S0_CCU2C_S1_S0_MULT18X18D_P2_P18_CCU2C_A0_6$CCU2_COMB1.A
+Info:                Defined in:
+Info:                  synth/fmax_wrap.v:25.39-28.44
+Info:                  rtl/lane_alu.v:30.45-30.50
+Info:                  rtl/simd_core.v:45.56-47.14
+Info:                  /usr/bin/../share/yosys/mul2dsp.v:148.7-152.6
+Info:                  /usr/bin/../share/yosys/mul2dsp.v:230.32-230.125
+Info:                  /usr/bin/../share/yosys/ecp5/arith_map.v:30.22-30.23
+Info:  0.3  8.1  Source u_core.u_rf.wdata_LUT4_Z_2_A_PFUMX_Z_C0_PFUMX_Z_C0_L6MUX21_Z_SD_L6MUX21_Z_SD_L6MUX21_Z_D0_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z_C_CCU2C_S1_S0_CCU2C_S1_S0_MULT18X18D_P2_P18_CCU2C_A0_6$CCU2_COMB1.FCO
+Info:  0.0  8.1    Net u_core.u_rf.wdata_LUT4_Z_2_A_PFUMX_Z_C0_PFUMX_Z_C0_L6MUX21_Z_SD_L6MUX21_Z_SD_L6MUX21_Z_D0_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z_C_CCU2C_S1_S0_CCU2C_S1_S0_MULT18X18D_P2_P18_CCU2C_A0_4_COUT[1] budget 0.000000 ns (8,11) -> (8,11)
+Info:                Sink u_core.u_rf.wdata_LUT4_Z_2_A_PFUMX_Z_C0_PFUMX_Z_C0_L6MUX21_Z_SD_L6MUX21_Z_SD_L6MUX21_Z_D0_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z_C_CCU2C_S1_S0_CCU2C_S1_S0_MULT18X18D_P2_P18_CCU2C_A0_3$CCU2_COMB0.FCI
+Info:                Defined in:
+Info:                  synth/fmax_wrap.v:25.39-28.44
+Info:                  rtl/lane_alu.v:30.45-30.50
+Info:                  rtl/simd_core.v:45.56-47.14
+Info:                  /usr/bin/../share/yosys/mul2dsp.v:148.7-152.6
+Info:                  /usr/bin/../share/yosys/mul2dsp.v:230.32-230.125
+Info:                  /usr/bin/../share/yosys/ecp5/arith_map.v:63.22-63.23
+Info:  0.3  8.4  Source u_core.u_rf.wdata_LUT4_Z_2_A_PFUMX_Z_C0_PFUMX_Z_C0_L6MUX21_Z_SD_L6MUX21_Z_SD_L6MUX21_Z_D0_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z_C_CCU2C_S1_S0_CCU2C_S1_S0_MULT18X18D_P2_P18_CCU2C_A0_3$CCU2_COMB0.F
+Info:  0.9  9.3    Net u_core.u_rf.wdata_LUT4_Z_2_A_PFUMX_Z_C0_PFUMX_Z_C0_L6MUX21_Z_SD_L6MUX21_Z_SD_L6MUX21_Z_D0_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z_C_CCU2C_S1_2_A0[2] budget 0.069000 ns (8,11) -> (11,11)
+Info:                Sink u_core.u_rf.wdata_LUT4_Z_2_A_PFUMX_Z_C0_PFUMX_Z_C0_L6MUX21_Z_SD_L6MUX21_Z_SD_L6MUX21_Z_D0_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z_C_CCU2C_S1_2_COUT_CCU2C_COUT_3$CCU2_COMB0.A
+Info:                Defined in:
+Info:                  synth/fmax_wrap.v:25.39-28.44
+Info:                  rtl/lane_alu.v:30.45-30.50
+Info:                  rtl/simd_core.v:45.56-47.14
+Info:                  /usr/bin/../share/yosys/mul2dsp.v:148.7-152.6
+Info:                  /usr/bin/../share/yosys/mul2dsp.v:230.32-230.125
+Info:                  /usr/bin/../share/yosys/ecp5/arith_map.v:34.26-34.27
+Info:  0.3  9.6  Source u_core.u_rf.wdata_LUT4_Z_2_A_PFUMX_Z_C0_PFUMX_Z_C0_L6MUX21_Z_SD_L6MUX21_Z_SD_L6MUX21_Z_D0_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z_C_CCU2C_S1_2_COUT_CCU2C_COUT_3$CCU2_COMB0.FCO
+Info:  0.0  9.6    Net u_core.u_rf.wdata_LUT4_Z_2_A_PFUMX_Z_C0_PFUMX_Z_C0_L6MUX21_Z_SD_L6MUX21_Z_SD_L6MUX21_Z_D0_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z_C_CCU2C_S1_2_COUT_CCU2C_COUT_3$CCU2_FCI_INT budget 0.000000 ns (11,11) -> (11,11)
+Info:                Sink u_core.u_rf.wdata_LUT4_Z_2_A_PFUMX_Z_C0_PFUMX_Z_C0_L6MUX21_Z_SD_L6MUX21_Z_SD_L6MUX21_Z_D0_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z_C_CCU2C_S1_2_COUT_CCU2C_COUT_3$CCU2_COMB1.FCI
+Info:  0.0  9.6  Source u_core.u_rf.wdata_LUT4_Z_2_A_PFUMX_Z_C0_PFUMX_Z_C0_L6MUX21_Z_SD_L6MUX21_Z_SD_L6MUX21_Z_D0_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z_C_CCU2C_S1_2_COUT_CCU2C_COUT_3$CCU2_COMB1.FCO
+Info:  0.0  9.6    Net u_core.u_rf.wdata_LUT4_Z_2_A_PFUMX_Z_C0_PFUMX_Z_C0_L6MUX21_Z_SD_L6MUX21_Z_SD_L6MUX21_Z_D0_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z_C_CCU2C_S1_2_COUT[4] budget 0.000000 ns (11,11) -> (11,11)
+Info:                Sink u_core.u_rf.wdata_LUT4_Z_2_A_PFUMX_Z_C0_PFUMX_Z_C0_L6MUX21_Z_SD_L6MUX21_Z_SD_L6MUX21_Z_D0_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z_C_CCU2C_S1_2_COUT_CCU2C_COUT_2$CCU2_COMB0.FCI
+Info:                Defined in:
+Info:                  synth/fmax_wrap.v:25.39-28.44
+Info:                  rtl/lane_alu.v:30.45-30.50
+Info:                  rtl/simd_core.v:45.56-47.14
+Info:                  /usr/bin/../share/yosys/mul2dsp.v:173.32-173.125
+Info:                  /usr/bin/../share/yosys/ecp5/arith_map.v:63.22-63.23
+Info:  0.0  9.6  Source u_core.u_rf.wdata_LUT4_Z_2_A_PFUMX_Z_C0_PFUMX_Z_C0_L6MUX21_Z_SD_L6MUX21_Z_SD_L6MUX21_Z_D0_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z_C_CCU2C_S1_2_COUT_CCU2C_COUT_2$CCU2_COMB0.FCO
+Info:  0.0  9.6    Net u_core.u_rf.wdata_LUT4_Z_2_A_PFUMX_Z_C0_PFUMX_Z_C0_L6MUX21_Z_SD_L6MUX21_Z_SD_L6MUX21_Z_D0_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z_C_CCU2C_S1_2_COUT_CCU2C_COUT_2$CCU2_FCI_INT budget 0.000000 ns (11,11) -> (11,11)
+Info:                Sink u_core.u_rf.wdata_LUT4_Z_2_A_PFUMX_Z_C0_PFUMX_Z_C0_L6MUX21_Z_SD_L6MUX21_Z_SD_L6MUX21_Z_D0_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z_C_CCU2C_S1_2_COUT_CCU2C_COUT_2$CCU2_COMB1.FCI
+Info:  0.0  9.6  Source u_core.u_rf.wdata_LUT4_Z_2_A_PFUMX_Z_C0_PFUMX_Z_C0_L6MUX21_Z_SD_L6MUX21_Z_SD_L6MUX21_Z_D0_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z_C_CCU2C_S1_2_COUT_CCU2C_COUT_2$CCU2_COMB1.FCO
+Info:  0.0  9.6    Net u_core.u_rf.wdata_LUT4_Z_2_A_PFUMX_Z_C0_PFUMX_Z_C0_L6MUX21_Z_SD_L6MUX21_Z_SD_L6MUX21_Z_D0_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z_C_CCU2C_S1_2_COUT[6] budget 0.000000 ns (11,11) -> (12,11)
+Info:                Sink u_core.u_rf.wdata_LUT4_Z_2_A_PFUMX_Z_C0_PFUMX_Z_C0_L6MUX21_Z_SD_L6MUX21_Z_SD_L6MUX21_Z_D0_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z_C_CCU2C_S1_2_COUT_CCU2C_COUT_1$CCU2_COMB0.FCI
+Info:                Defined in:
+Info:                  synth/fmax_wrap.v:25.39-28.44
+Info:                  rtl/lane_alu.v:30.45-30.50
+Info:                  rtl/simd_core.v:45.56-47.14
+Info:                  /usr/bin/../share/yosys/mul2dsp.v:173.32-173.125
+Info:                  /usr/bin/../share/yosys/ecp5/arith_map.v:63.22-63.23
+Info:  0.0  9.7  Source u_core.u_rf.wdata_LUT4_Z_2_A_PFUMX_Z_C0_PFUMX_Z_C0_L6MUX21_Z_SD_L6MUX21_Z_SD_L6MUX21_Z_D0_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z_C_CCU2C_S1_2_COUT_CCU2C_COUT_1$CCU2_COMB0.FCO
+Info:  0.0  9.7    Net u_core.u_rf.wdata_LUT4_Z_2_A_PFUMX_Z_C0_PFUMX_Z_C0_L6MUX21_Z_SD_L6MUX21_Z_SD_L6MUX21_Z_D0_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z_C_CCU2C_S1_2_COUT_CCU2C_COUT_1$CCU2_FCI_INT budget 0.000000 ns (12,11) -> (12,11)
+Info:                Sink u_core.u_rf.wdata_LUT4_Z_2_A_PFUMX_Z_C0_PFUMX_Z_C0_L6MUX21_Z_SD_L6MUX21_Z_SD_L6MUX21_Z_D0_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z_C_CCU2C_S1_2_COUT_CCU2C_COUT_1$CCU2_COMB1.FCI
+Info:  0.0  9.7  Source u_core.u_rf.wdata_LUT4_Z_2_A_PFUMX_Z_C0_PFUMX_Z_C0_L6MUX21_Z_SD_L6MUX21_Z_SD_L6MUX21_Z_D0_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z_C_CCU2C_S1_2_COUT_CCU2C_COUT_1$CCU2_COMB1.FCO
+Info:  0.0  9.7    Net u_core.u_rf.wdata_LUT4_Z_2_A_PFUMX_Z_C0_PFUMX_Z_C0_L6MUX21_Z_SD_L6MUX21_Z_SD_L6MUX21_Z_D0_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z_C_CCU2C_S1_2_COUT[8] budget 0.000000 ns (12,11) -> (12,11)
+Info:                Sink u_core.u_rf.wdata_LUT4_Z_2_A_PFUMX_Z_C0_PFUMX_Z_C0_L6MUX21_Z_SD_L6MUX21_Z_SD_L6MUX21_Z_D0_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z_C_CCU2C_S1_2_COUT_CCU2C_COUT$CCU2_COMB0.FCI
+Info:                Defined in:
+Info:                  synth/fmax_wrap.v:25.39-28.44
+Info:                  rtl/lane_alu.v:30.45-30.50
+Info:                  rtl/simd_core.v:45.56-47.14
+Info:                  /usr/bin/../share/yosys/mul2dsp.v:173.32-173.125
+Info:                  /usr/bin/../share/yosys/ecp5/arith_map.v:63.22-63.23
+Info:  0.0  9.7  Source u_core.u_rf.wdata_LUT4_Z_2_A_PFUMX_Z_C0_PFUMX_Z_C0_L6MUX21_Z_SD_L6MUX21_Z_SD_L6MUX21_Z_D0_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z_C_CCU2C_S1_2_COUT_CCU2C_COUT$CCU2_COMB0.FCO
+Info:  0.0  9.7    Net u_core.u_rf.wdata_LUT4_Z_2_A_PFUMX_Z_C0_PFUMX_Z_C0_L6MUX21_Z_SD_L6MUX21_Z_SD_L6MUX21_Z_D0_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z_C_CCU2C_S1_2_COUT_CCU2C_COUT$CCU2_FCI_INT budget 0.000000 ns (12,11) -> (12,11)
+Info:                Sink u_core.u_rf.wdata_LUT4_Z_2_A_PFUMX_Z_C0_PFUMX_Z_C0_L6MUX21_Z_SD_L6MUX21_Z_SD_L6MUX21_Z_D0_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z_C_CCU2C_S1_2_COUT_CCU2C_COUT$CCU2_COMB1.FCI
+Info:  0.2  9.9  Source u_core.u_rf.wdata_LUT4_Z_2_A_PFUMX_Z_C0_PFUMX_Z_C0_L6MUX21_Z_SD_L6MUX21_Z_SD_L6MUX21_Z_D0_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z_C_CCU2C_S1_2_COUT_CCU2C_COUT$CCU2_COMB1.F
+Info:  0.8 10.7    Net u_core.u_rf.wdata_LUT4_Z_2_A_PFUMX_Z_C0_PFUMX_Z_C0_L6MUX21_Z_SD_L6MUX21_Z_SD_L6MUX21_Z_D0_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z_C_CCU2C_S1_2_COUT_CCU2C_COUT_5_S0[9] budget 0.069000 ns (12,11) -> (13,13)
+Info:                Sink u_core.u_rf.wdata_LUT4_Z_3_A_PFUMX_Z_C0_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z_D_L6MUX21_Z_SD_L6MUX21_Z_SD_L6MUX21_Z_D1_L6MUX21_Z_D1_PFUMX_Z_BLUT_LUT4_Z.C
+Info:                Defined in:
+Info:                  synth/fmax_wrap.v:25.39-28.44
+Info:                  rtl/lane_alu.v:30.45-30.50
+Info:                  rtl/simd_core.v:45.56-47.14
+Info:                  /usr/bin/../share/yosys/mul2dsp.v:65.23-65.24
+Info:  0.2 10.9  Source u_core.u_rf.wdata_LUT4_Z_3_A_PFUMX_Z_C0_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z_D_L6MUX21_Z_SD_L6MUX21_Z_SD_L6MUX21_Z_D1_L6MUX21_Z_D1_PFUMX_Z_BLUT_LUT4_Z.OFX
+Info:  0.0 10.9    Net u_core.u_rf.wdata_LUT4_Z_3_A_PFUMX_Z_C0_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z_D_L6MUX21_Z_SD_L6MUX21_Z_SD_L6MUX21_Z_D1_L6MUX21_Z_D1 budget 0.000000 ns (13,13) -> (13,13)
+Info:                Sink u_core.u_rf.wdata_LUT4_Z_3_A_PFUMX_Z_C0_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z_D_L6MUX21_Z_SD_L6MUX21_Z_SD_L6MUX21_Z_D1_L6MUX21_Z_D1_PFUMX_Z_ALUT_LUT4_Z.FXB
+Info:                Defined in:
+Info:                  /usr/bin/../share/yosys/ecp5/cells_map.v:157.62-157.64
+Info:  0.1 11.1  Source u_core.u_rf.wdata_LUT4_Z_3_A_PFUMX_Z_C0_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z_D_L6MUX21_Z_SD_L6MUX21_Z_SD_L6MUX21_Z_D1_L6MUX21_Z_D1_PFUMX_Z_ALUT_LUT4_Z.OFX
+Info:  0.0 11.1    Net u_core.u_rf.wdata_LUT4_Z_3_A_PFUMX_Z_C0_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z_D_L6MUX21_Z_SD_L6MUX21_Z_SD_L6MUX21_Z_D1 budget 0.000000 ns (13,13) -> (13,13)
+Info:                Sink u_core.u_rf.wdata_LUT4_Z_3_A_PFUMX_Z_C0_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z_D_L6MUX21_Z_SD_L6MUX21_Z_SD_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z.FXB
+Info:                Defined in:
+Info:                  /usr/bin/../share/yosys/ecp5/cells_map.v:157.70-157.72
+Info:  0.1 11.2  Source u_core.u_rf.wdata_LUT4_Z_3_A_PFUMX_Z_C0_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z_D_L6MUX21_Z_SD_L6MUX21_Z_SD_L6MUX21_Z_D1_L6MUX21_Z_D0_PFUMX_Z_ALUT_LUT4_Z.OFX
+Info:  0.5 11.8    Net u_core.u_rf.wdata_LUT4_Z_3_A_PFUMX_Z_C0_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z_D_L6MUX21_Z_SD_L6MUX21_Z_SD[5] budget 0.488000 ns (13,13) -> (15,19)
+Info:                Sink u_core.u_rf.wdata_LUT4_Z_3_A_PFUMX_Z_C0_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z_D_L6MUX21_Z_SD_L6MUX21_Z_D1_PFUMX_Z_ALUT_LUT4_Z.M
+Info:                Defined in:
+Info:                  /usr/bin/../share/yosys/ecp5/cells_map.v:108.23-108.24
+Info:  0.2 11.9  Source u_core.u_rf.wdata_LUT4_Z_3_A_PFUMX_Z_C0_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z_D_L6MUX21_Z_SD_L6MUX21_Z_D1_PFUMX_Z_ALUT_LUT4_Z.OFX
+Info:  0.4 12.3    Net u_core.u_rf.wdata_LUT4_Z_3_A_PFUMX_Z_C0_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z_D_L6MUX21_Z_SD[5] budget 0.488000 ns (15,19) -> (14,19)
+Info:                Sink u_core.u_rf.wdata_LUT4_Z_3_A_PFUMX_Z_C0_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z_D_L6MUX21_Z_D1_PFUMX_Z_ALUT_LUT4_Z.M
+Info:                Defined in:
+Info:                  /usr/bin/../share/yosys/ecp5/cells_map.v:108.23-108.24
+Info:  0.2 12.5  Source u_core.u_rf.wdata_LUT4_Z_3_A_PFUMX_Z_C0_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z_D_L6MUX21_Z_D1_PFUMX_Z_ALUT_LUT4_Z.OFX
+Info:  0.5 13.0    Net u_core.u_rf.wdata_LUT4_Z_3_A_PFUMX_Z_C0_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z_D[2] budget 0.488000 ns (14,19) -> (14,21)
+Info:                Sink u_core.u_rf.wdata_LUT4_Z_3_A_PFUMX_Z_C0_L6MUX21_Z_D1_PFUMX_Z_ALUT_LUT4_Z.C
+Info:                Defined in:
+Info:                  /usr/bin/../share/yosys/ecp5/cells_map.v:108.23-108.24
+Info:  0.1 13.1  Source u_core.u_rf.wdata_LUT4_Z_3_A_PFUMX_Z_C0_L6MUX21_Z_D1_PFUMX_Z_ALUT_LUT4_Z.F
+Info:  0.0 13.1    Net u_core.u_rf.wdata_LUT4_Z_3_A_PFUMX_Z_C0_L6MUX21_Z_D1_PFUMX_Z_ALUT budget 0.487000 ns (14,21) -> (14,21)
+Info:                Sink u_core.u_rf.wdata_LUT4_Z_3_A_PFUMX_Z_C0_L6MUX21_Z_D1_PFUMX_Z_BLUT_LUT4_Z.F1
+Info:                Defined in:
+Info:                  /usr/bin/../share/yosys/ecp5/cells_map.v:141.30-141.32
+Info:  0.1 13.2  Source u_core.u_rf.wdata_LUT4_Z_3_A_PFUMX_Z_C0_L6MUX21_Z_D1_PFUMX_Z_BLUT_LUT4_Z.OFX
+Info:  0.0 13.2    Net u_core.u_rf.wdata_LUT4_Z_3_A_PFUMX_Z_C0_L6MUX21_Z_D1 budget 0.000000 ns (14,21) -> (14,21)
+Info:                Sink u_core.u_rf.wdata_LUT4_Z_3_A_PFUMX_Z_C0_L6MUX21_Z_D1_PFUMX_Z_ALUT_LUT4_Z.FXB
+Info:                Defined in:
+Info:                  /usr/bin/../share/yosys/ecp5/cells_map.v:141.38-141.40
+Info:  0.1 13.3  Source u_core.u_rf.wdata_LUT4_Z_3_A_PFUMX_Z_C0_L6MUX21_Z_D1_PFUMX_Z_ALUT_LUT4_Z.OFX
+Info:  0.5 13.8    Net u_core.u_rf.wdata_LUT4_Z_3_A_PFUMX_Z_C0[4] budget 0.609000 ns (14,21) -> (16,20)
+Info:                Sink u_core.u_rf.wdata_LUT4_Z_3_A_PFUMX_Z_BLUT_LUT4_Z.M
+Info:                Defined in:
+Info:                  /usr/bin/../share/yosys/ecp5/cells_map.v:108.23-108.24
+Info:  0.2 14.0  Source u_core.u_rf.wdata_LUT4_Z_3_A_PFUMX_Z_BLUT_LUT4_Z.OFX
+Info:  0.7 14.7    Net u_core.u_rf.wdata_LUT4_Z_3_A[1] budget 0.380000 ns (16,20) -> (16,24)
+Info:                Sink u_core.u_rf.wdata_LUT4_Z_3.B
+Info:                Defined in:
+Info:                  /usr/bin/../share/yosys/ecp5/cells_map.v:108.23-108.24
+Info:  0.1 14.8  Source u_core.u_rf.wdata_LUT4_Z_3.F
+Info:  0.6 15.4    Net u_core.wr_data[27] budget 0.380000 ns (16,24) -> (18,23)
+Info:                Sink u_core.u_rf.regs[6]_TRELLIS_FF_Q_4.M
+Info:                Defined in:
+Info:                  synth/fmax_wrap.v:25.39-28.44
+Info:                  rtl/simd_core.v:55.24-55.31
+Info:  0.0 15.4  Setup u_core.u_rf.regs[6]_TRELLIS_FF_Q_4.M
+Info: 6.1 ns logic, 9.2 ns routing
+
+Info: Critical path report for cross-domain path '<async>' -> 'posedge $glbnet$clk$TRELLIS_IO_IN':
+Info: curr total
+Info:  0.0  0.0  Source rst_n$tr_io.O
+Info:  2.4  2.4    Net rst_n$TRELLIS_IO_IN budget 4.817000 ns (20,0) -> (2,13)
+Info:                Sink u_core.u_rf.regs[2]_TRELLIS_FF_Q_30_LSR_LUT4_Z.D
+Info:                Defined in:
+Info:                  synth/fmax_wrap.v:25.39-28.44
+Info:                  rtl/vreg_file.v:11.28-11.33
+Info:                  rtl/simd_core.v:57.39-62.6
+Info:  0.1  2.5  Source u_core.u_rf.regs[2]_TRELLIS_FF_Q_30_LSR_LUT4_Z.F
+Info:  0.4  2.9    Net u_core.u_rf.regs[2]_TRELLIS_FF_Q_30_LSR budget 4.817000 ns (2,13) -> (2,12)
+Info:                Sink u_core.u_rf.regs[2]_TRELLIS_FF_Q_30.LSR
+Info:  0.2  3.1  Setup u_core.u_rf.regs[2]_TRELLIS_FF_Q_30.LSR
+Info: 0.4 ns logic, 2.8 ns routing
+
+Info: Critical path report for cross-domain path 'posedge $glbnet$clk$TRELLIS_IO_IN' -> '<async>':
+Info: curr total
+Info:  0.3  0.3  Source dout_TRELLIS_FF_Q.Q
+Info:  4.4  4.7    Net dout$TRELLIS_IO_OUT budget 9.691000 ns (5,12) -> (126,14)
+Info:                Sink dout$tr_io.I
+Info:                Defined in:
+Info:                  synth/fmax_wrap.v:10.16-10.20
+Info: 0.3 ns logic, 4.4 ns routing
+
+ERROR: Max frequency for clock '$glbnet$clk$TRELLIS_IO_IN': 65.05 MHz (FAIL at 100.00 MHz)
+
+Info: Max delay <async>                           -> posedge $glbnet$clk$TRELLIS_IO_IN: 3.15 ns
+Info: Max delay posedge $glbnet$clk$TRELLIS_IO_IN -> <async>                          : 4.70 ns
+
+Info: Slack histogram:
+Info:  legend: * represents 2 endpoint(s)
+Info:          + represents [1,2) endpoint(s)
+Info: [ -5372,  -4632) |******+
+Info: [ -4632,  -3892) |****************+
+Info: [ -3892,  -3152) |***********+
+Info: [ -3152,  -2412) |*********+
+Info: [ -2412,  -1672) | 
+Info: [ -1672,   -932) |*********************************+
+Info: [  -932,   -192) |****************+
+Info: [  -192,    548) |******+
+Info: [   548,   1288) | 
+Info: [  1288,   2028) | 
+Info: [  2028,   2768) | 
+Info: [  2768,   3508) | 
+Info: [  3508,   4248) | 
+Info: [  4248,   4988) |****+
+Info: [  4988,   5728) |************************************************************ 
+Info: [  5728,   6468) |******************************************+
+Info: [  6468,   7208) |************+
+Info: [  7208,   7948) |*******************************************************+
+Info: [  7948,   8688) |*******************************************+
+Info: [  8688,   9428) |*******************************+
+0 warnings, 1 error
+
+Info: Program finished normally.

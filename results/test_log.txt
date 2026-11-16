@@ -1,0 +1,14 @@
+tb_lane_alu: checks=753901 errors=0
+RESULT: PASS
+tb_vreg_file: LANES=4 checks=1636 errors=0
+RESULT: PASS
+tb_vctrl: checks=8000 errors=0
+RESULT: PASS
+LANES=1  checks=26525  errors=0
+RESULT: PASS
+LANES=2  checks=28725  errors=0
+RESULT: PASS
+LANES=4  checks=36425  errors=0
+RESULT: PASS
+LANES=8  checks=65025  errors=0
+RESULT: PASS

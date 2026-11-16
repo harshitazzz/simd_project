@@ -1,0 +1,8 @@
+COMPARE lanes=1 N=1024 scalar_cycles=4097 simd_cycles=4097 speedup=1.000000 errors=0
+RESULT: PASS
+COMPARE lanes=2 N=1024 scalar_cycles=4097 simd_cycles=2049 speedup=1.999512 errors=0
+RESULT: PASS
+COMPARE lanes=4 N=1024 scalar_cycles=4097 simd_cycles=1025 speedup=3.997073 errors=0
+RESULT: PASS
+COMPARE lanes=8 N=1024 scalar_cycles=4097 simd_cycles=513 speedup=7.986355 errors=0
+RESULT: PASS

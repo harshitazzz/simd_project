@@ -1,0 +1,29 @@
+
+7. Printing statistics.
+
+=== simd_core ===
+
+   Number of wires:               3201
+   Number of wire bits:           9188
+   Number of public wires:          56
+   Number of public wire bits:    1474
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               5017
+     BUFG                            1
+     CARRY4                         38
+     DSP48E1                         6
+     FDCE                          512
+     IBUF                          120
+     INV                           576
+     LUT1                          140
+     LUT2                          283
+     LUT3                          431
+     LUT4                          627
+     LUT5                          316
+     LUT6                          649
+     MUXF7                         972
+     MUXF8                         282
+     OBUF                           64
+

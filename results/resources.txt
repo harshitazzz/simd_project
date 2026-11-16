@@ -1,0 +1,44 @@
+== LANES=1 ==
+   Number of cells:               2453
+     CARRY4                         19
+     DSP48E1                         3
+     FDCE                          256
+     LUT1                           84
+     LUT2                          148
+     LUT3                          209
+     LUT4                          263
+     LUT5                          152
+     LUT6                          345
+== LANES=2 ==
+   Number of cells:               5017
+     CARRY4                         38
+     DSP48E1                         6
+     FDCE                          512
+     LUT1                          140
+     LUT2                          283
+     LUT3                          431
+     LUT4                          627
+     LUT5                          316
+     LUT6                          649
+== LANES=4 ==
+   Number of cells:               9955
+     CARRY4                         76
+     DSP48E1                        12
+     FDCE                         1024
+     LUT1                          280
+     LUT2                          547
+     LUT3                          859
+     LUT4                         1255
+     LUT5                          632
+     LUT6                         1297
+== LANES=8 ==
+   Number of cells:              19831
+     CARRY4                        152
+     DSP48E1                        24
+     FDCE                         2048
+     LUT1                          560
+     LUT2                         1075
+     LUT3                         1715
+     LUT4                         2511
+     LUT5                         1264
+     LUT6                         2593
