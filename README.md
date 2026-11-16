@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| Demo video | _paste the unlisted YouTube / Drive link here_ |
+| Demo video |https://drive.google.com/file/d/1nBAPBv7575ia6P2hTVv30iS5utGrCbkq/view?usp=sharing|
 | IEEE report | [report/main.pdf](report/main.pdf) (LaTeX source: [report/main.tex](report/main.tex)) |
 | Language / tools | Verilog-2001/2005, Icarus Verilog 12, Yosys 0.33, nextpnr-ecp5 0.6, Python 3 + matplotlib |
 
