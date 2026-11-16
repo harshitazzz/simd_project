@@ -1,5 +1,4 @@
 # Demo video
 
-Link: _paste here_
+Link: https://drive.google.com/file/d/1nBAPBv7575ia6P2hTVv30iS5utGrCbkq/view?usp=sharing
 
-Recorded by the team; length < 5:00. Script used: [docs/VIDEO_SCRIPT.md](../docs/VIDEO_SCRIPT.md)
