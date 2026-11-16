@@ -199,7 +199,7 @@ video/      README.md (video link)
 | 2 | Yashi Agarwal | 2401010516 | `lane_alu.v`, block-diagram script | `tb_lane_alu.v` (exhaustive) | ISA + lane ALU section, Fig. 1 block diagram |
 | 3 | Manan Gilhotra | 2401020038 | RTL: `vreg_file.v`, `lane_alu.v`, `vctrl.v`, `simd_core.v`, `scalar_top.v`; `fmax_wrap.v`, `fmax.sh` | `tb_vreg_file.v`, Fmax/area for 1-8 lanes | Literature review, Experimental setup |
 | 4 | Akhil Mishra | 2401010051 | `vctrl.v`, ISA document | `tb_vctrl.v`, `tb_simd_core.v`, coverage, fault injection | Verification |
-| 5 | _name_ | _@id_ | `scalar_top.v`, `bench_top.v`, plotting/table scripts | `tb_bench.v`, `tb_compare.v`, `tb_waves.v`, waveforms, analysis | Scalar machine + benchmark, Results |
+| 5 | Satyam Swarnkar | 2401010431 | `scalar_top.v`, `bench_top.v`, plotting/table scripts | `tb_bench.v`, `tb_compare.v`, `tb_waves.v`, waveforms, analysis | Scalar machine + benchmark, Results |
 
 Each member also has a personal step-by-step guide with the exact code to paste into GitHub (`MEMBER_N_GUIDE.md`, shared separately from this repo).
 The presentation video is delivered by one team member (all five are introduced in it).
